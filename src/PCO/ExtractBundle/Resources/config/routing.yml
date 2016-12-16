@@ -1,0 +1,15 @@
+pco_extract_homepage:
+    path:     /pco
+    defaults: 
+      _controller: PCOExtractBundle:Advert:index
+
+pco_extract_projets:
+  path:     /pco/projets
+  defaults:
+    _controller: PCOExtractBundle:Advert:projets
+
+pco_extract_plateformes:
+  path:   /pco/plateformes
+  defaults:
+    _controller: PCOExtractBundle:Advert:plateformes
+

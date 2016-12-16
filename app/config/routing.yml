@@ -1,0 +1,11 @@
+pco_extract:
+    resource: "@PCOExtractBundle/Resources/config/routing.yml"
+    prefix:   /
+
+test_platform:
+    resource: "@TestPlatformBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

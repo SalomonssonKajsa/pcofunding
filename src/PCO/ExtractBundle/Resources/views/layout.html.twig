@@ -1,0 +1,17 @@
+{# src/PCO/ExtractBundle/Resources/views/layout.html.twig #}
+
+{% extends "::PCOlayout.html.twig" %}
+
+{% block title %}
+Projets - {{parent()}}
+{% endblock %}
+
+{% block body %}
+	<h1>Pages Admin</h1>
+
+	<hr>
+
+	{% block pcoextract_body %}
+	{% endblock %}
+
+{% endblock %}
